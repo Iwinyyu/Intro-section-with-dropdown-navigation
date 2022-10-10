@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <main>
+    <div class="overlay">
+    </div>
+    <div class="nav">
+      <div class="menu-top">
+        <button class="btns close" id="close">
+          <img src="images\icon-close-menu.svg" alt="">
+        </button>
+        <div class="feature-btn-expand">
+          <button class="btns features" id="feature">
+            Features
+            <img src="images\icon-arrow-down.svg" alt="" class="arrow">
+          </button>
+          <div class="expand-menu" id="feature-expand">
+            <button class="btns expand">
+              <img src="images\icon-todo.svg" alt="" class="expand-icons">
+              todo list
+            </button>
+            <button class="btns expand">
+              <img src="images\icon-calendar.svg" alt="" class="expand-icons">
+              calender
+            </button>
+            <button class="btns expand">
+              <img src="images\icon-reminders.svg" alt="" class="expand-icons">
+              reminders
+            </button>
+            <button class="btns expand">
+              <img src="images\icon-planning.svg" alt="" class="expand-icons">
+              planning
+            </button>
+          </div>
+        </div>
+        <div class="company-btn-expand">
+
+          <button class="btns company" id="company">
+            company
+            <img src="images\icon-arrow-down.svg" alt="" class="arrow">
+          </button>
+          <div class="expand-menu" id="company-expand">
+            <button class="btns expand">
+              history
+            </button>
+            <button class="btns expand">
+              our team
+            </button>
+            <button class="btns expand">
+              Blog
+            </button>
+        </div>
+        </div>
+        <button class="btns career" id="career">career</button>
+        <button class="btns about" id="about">about</button>
+      </div>
+        <div class="logs">
+
+        <button class="btns login" id="login">login</button>
+        <button class="btns register" id="register">register</button>
+      </div>
+      </div>
+    <div class="navigation-bar">
+      snap
+      <button class="menu">
+        <img src="images\icon-menu.svg" alt="">
+      </button>
+    </div>
+    <div class="main">
+      <picture>
+        <source srcset="images\image-hero-desktop.png" media="(min-width:55em)">
+        <source srcset="images\image-hero-mobile.png">
+        <img src="images\image-hero-mobile.png" alt=""  class="main-img">
+      </picture>
+      <div class="des-div">
+        <h1 class="title">Make remote work</h1>
+        <p class="description">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button class="learn-btn">Learn more</button>
+        <div class="sponsor-div">
+          <div class="sponsor">
+            <img class="sponsor-img" src="images\client-databiz.svg" alt="">
+          </div>
+          <div class="sponsor">
+            <img class="sponsor-img" src="images\client-audiophile.svg" alt="">
+          </div>
+          <div class="sponsor">
+            <img class="sponsor-img" src="images\client-meet.svg" alt="">
+          </div>
+          <div class="sponsor">
+            <img class="sponsor-img" src="images\client-maker.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script src="app.js"></script>
+</body>
+</html>
